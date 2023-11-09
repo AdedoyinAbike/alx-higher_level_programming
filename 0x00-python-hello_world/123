@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+str = "this is my girl, she is tired as fuck"
+str = ' '.join(str.split(' ')[1:5])
+print(str)
