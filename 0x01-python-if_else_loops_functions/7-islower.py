@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 def islower(c):
     return 'a' <= c <= 'z'
-char_input = input('enter a c: ')
-if islower(char_input):
-    print(f'{char_input} is lower')
-else:
-    print(f'{char_input} is upper')
+print('a is {}'.format('lower' if islower('a') else 'upper'))
+print('H is {}'.format('lower' if islower('H') else 'upper'))
+print('A is {}'.format('lower' if islower('A') else 'upper'))
+print('3 is {}'.format('lower' if islower('3') else 'upper'))
+print('g is {}'.format('lower' if islower('g') else 'upper'))
