@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def islower(c):
     return 'a' <= c <= 'z'
 char_input = input('enter a character: ')
