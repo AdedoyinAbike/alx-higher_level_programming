@@ -7,5 +7,5 @@ def uppercase(str):
         else:
             result +=ch
     print(result)
-str= 'best' +'\n' + 'best school 98 battery street'            
-uppercase(str)            
+str= 'best' +'\n' + 'best school 98 battery street'
+uppercase(str)
