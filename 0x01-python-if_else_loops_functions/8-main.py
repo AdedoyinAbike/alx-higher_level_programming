@@ -1,4 +1,11 @@
 #!/usr/bin/python3
 def uppercase(str):
-    return 'A' <= str <= 'Z'
-print('{}'.format(uppercase('best')))
+    result =''
+    for ch in str:
+        if 'a' <= ch <= 'z':
+            result += chr(ord(ch) -ord('a') + ord('A'))
+        else:
+            result +=ch
+    print(result)
+str= 'best' +'\n' + 'best school 98 battery street'            
+uppercase(str)            
