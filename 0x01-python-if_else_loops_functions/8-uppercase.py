@@ -6,6 +6,6 @@ def uppercase(str):
             result += chr(ord(ch) -ord('a') + ord('A'))
         else:
             result +=ch
-    print(result)
+    print('{}'.format(result))
 str= 'best' +'\n' + 'best school 98 battery street'
 uppercase(str)
