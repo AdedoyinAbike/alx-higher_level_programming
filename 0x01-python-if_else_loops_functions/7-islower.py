@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 def islower(c):
     return 'a' <= c <= 'z'
-if islower(c):
-    print('{} is lower'.format(c))
-else:
-    print('upper')
-c= 'a'
+c='a'
+print('a is {}'.format('lower' if islower('a') else 'upper'))
+print('H is {}'.format('lower' if islower('H') else 'upper'))
 islower(c)
