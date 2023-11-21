@@ -5,4 +5,5 @@ if islower(c):
     print('{} is lower'.format(c))
 else:
     print('upper')
+c= 'a'
 islower(c)
