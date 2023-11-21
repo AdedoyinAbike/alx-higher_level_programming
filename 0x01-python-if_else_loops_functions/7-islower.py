@@ -6,7 +6,7 @@ def islower(c):
 def islower():
     return 'a' <= c <= 'z'
 
-
+() = 'a'
 print('a => {}'.format('lower' if islower('a') else 'upper'))
 
 
