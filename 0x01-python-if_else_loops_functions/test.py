@@ -1,5 +1,4 @@
-def add(a=1, b):
-    print(a + b)
+#!/usr/bin/python3
+islower = __import__('7-islower').islower
 
-add(b=2)
-            
+print("'' => {}".format("lower" if islower("") else "upper"))
